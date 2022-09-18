@@ -1,5 +1,5 @@
 body {
-  @include textFont(10px, yellow, 700, $Gilroy);
+  @include textFont(18px, $black, 700, $Gilroy);
 
   line-height: 100%;
   overflow-x: hidden;
@@ -57,4 +57,10 @@ main,
 .lock {
   height: 100vh;
   overflow: hidden;
+}
+
+h2{
+  font-size: 34px;
+  line-height: 42px;
+ 
 }
