@@ -1,6 +1,42 @@
-<section class="portfolio">
-    <div class="container">
-        <h2 class="portfolio__title">Portfolio</h2>
-        <img src="assets/img/portfolio/slide-01.jpg" alt="">
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <h2 class="portfolio__title">Portfolio</h2>
+
+    <div class="image-slider swiper">
+      <!-- Additional required wrapper -->
+      <div class="image-slider__wrapper swiper-wrapper">
+        <!-- Slides -->
+        <div class="image-slider__slide swiper-slide">
+          <div class="image-slider__image">
+            <img src="assets/img/portfolio/slide-01.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="image-slider__slide swiper-slide">
+          <div class="image-slider__image">
+            <img src="assets/img/portfolio/slide-02.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="image-slider__slide swiper-slide">
+          <div class="image-slider__image">
+            <img src="assets/img/portfolio/slide-03.jpg" alt="">
+          </div>
+        </div>
+
+      
+        ...
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
     </div>
+
+
 </section>

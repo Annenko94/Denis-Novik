@@ -1,6 +1,26 @@
 .portfolio {
+  margin-bottom: 210px;
   &__title {
     text-align: center;
     margin-bottom: 50px;
   }
 }
+
+.image-slider{
+
+  &__wrapper{
+    display:flex;
+   
+    min-width: 0;
+
+  }
+  &__image{
+    img{
+    
+    max-width: 100%;
+    }
+    
+  }
+}
+
+

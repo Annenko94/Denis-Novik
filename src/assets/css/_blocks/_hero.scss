@@ -20,6 +20,27 @@
 }
 
 .lang {
+  position: relative;
   font-size: 16px;
   transform: rotate(-90deg);
+}
+.lang__item {
+  color: #828282;
+  &:not(:last-child){
+    margin-right: 15px;
+  }
+  &.active {
+    color: $black;
+  }
+
+}
+.lang__item:nth-child(1)::after {
+  content: "";
+  top: 0;
+  left:30px;
+  position: absolute;
+  display: block;
+  height: 100%;
+  
+  border: 1px solid $black;
 }

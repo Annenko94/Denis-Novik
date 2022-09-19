@@ -6,6 +6,8 @@
 
   &__list {
     display: flex;
+    justify-content: space-between;
+
     &::after {
       top: 50px;
       content: "";
@@ -17,9 +19,7 @@
     }
   }
 
-  &__item:not(:last-child) {
-    margin-right: 155px;
-  }
+ 
 
   &__link {
     color: #828282;
