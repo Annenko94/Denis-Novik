@@ -1,8 +1,14 @@
 .about {
   margin-bottom: 200px;
+  @media (max-width:991px){
+   margin-bottom: 100px;
+    }
   &__title {
     text-align: center;
     margin-bottom: 25px;
+    @media (max-width:991px){
+     font-size: 24px;
+     }
   }
   p {
     font-weight: 500;
@@ -12,5 +18,8 @@
     &:not(:last-child) {
       margin-bottom: 50px;
     }
+    @media (max-width:991px){
+      font-size: 14px;
+      }
   }
 }

@@ -18,5 +18,12 @@ let mySwiper = new Swiper(slider,{
    
 });
     
+(function () {
+    let toggle = document.querySelector('.burger');
+    
+    toggle.addEventListener('click', () => {
+      this.classList.toggle('burger-close');
+    });
+  })();
         
- 
+

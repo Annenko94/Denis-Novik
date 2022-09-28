@@ -1,6 +1,10 @@
 .hero {
   margin-top: 80px;
   margin-bottom: 230px;
+  @media (max-width:991px){
+   margin-top: 10px;
+   margin-bottom: 100px;
+  }
   &__row {
     display: flex;
     justify-content: space-between;
@@ -11,11 +15,20 @@
     font-size: 47px;
     line-height: 59px;
     max-width: 123px;
+    @media (max-width:575px){
+      font-size: 22px;
+      line-height: 30px;
+      max-width: 110px;
+    }
   }
   &__description {
     font-weight: 500;
     line-height: 22px;
     max-width: 153px;
+    @media (max-width:575px){
+     max-width: 120px;
+      font-size: 14px;
+    }
   }
   &__img{
 display:block;
@@ -31,6 +44,9 @@ object-fit: cover;
   position: relative;
   font-size: 16px;
   transform: rotate(-90deg);
+  @media (max-width:991px){
+   font-size: 12px;
+  }
 }
 .lang__item {
   color: #828282;
@@ -51,4 +67,7 @@ object-fit: cover;
   height: 100%;
   
   border: 1px solid $black;
+  @media (max-width:991px){
+   left:25px;
+   }
 }
